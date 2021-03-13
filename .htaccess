@@ -1,0 +1,14 @@
+AddDefaultCharset utf-8
+ReWriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.game.loc$ [NC]
+#RewriteRule ^(.*)$ http://game.loc/$1 [R=301,L]
+#RewriteRule ^[\w/-]+$ index.php?i=$0 [L] // старый способ перенаправить все в index
+
+RewriteRule ^(.+)?$ /web/$1
+
+#Запрещаем загрузку файлов с внешних сайтов
+Options +FollowSymlinks
+
+
+

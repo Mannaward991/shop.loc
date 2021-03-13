@@ -1,0 +1,11 @@
+.container-in{
+	background-color: #ffffff;
+	background-image: none;
+	border-radius: 10px;
+	min-height: 500px;
+	margin: 20px;
+}
+
+.wrap > .container {
+	padding: 95px 15px 20px;
+}

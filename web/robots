@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /basket
+Disallow: /admin
+
+User-agent: Yandex
+Disallow: /basket
+Disallow: /admin
